@@ -3,17 +3,17 @@
 
 <?php require('config.php') ?>
 <head>
-	<meta charset="utf-8">
-	<title>Register</title>
-	<link rel="stylesheet" type="text/css" href="../css/app.css">
-</head>
-<body>
+	<head>
+        <meta charset="utf-8">
+        <title>Contact us</title>
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+    </head>
+    <body>
+     <?php include 'header.php'; ?>
+        <span id="app"></span>
 
-	<?php 
-    include 'header.php'; ?>
-
-    <main class="py-4">
-        <div class="container">
+        <main class="py-4">
+            <div class="container">
 
         	<h2>PURGE TRANSPORTATION AND LOGISTICS LTD</h2>
         	<hr>
@@ -77,6 +77,12 @@
 
         </div>
     </main>
+    <div id="footer">
+    <h4>+256 786964345 &bull; <a href="ome.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
+    <p>Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 10:00 am - 12:00 am</p>
+    
+    <p>&copy; Copyright 2021 PURGE TRANSPORTATION AND LOGISTICS | All Rights Reserved <br /></p>
+</div>
 
 </body>
 </html>

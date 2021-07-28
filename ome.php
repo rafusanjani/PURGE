@@ -17,10 +17,10 @@ require 'config.php';
         <div class="container">
 
         	<h2>PURGE TRANSPORTATION AND LOGISTICS LTD</h2>
-        	<h3 align ="center"><font color ="red" face = arial, helvetica, cambia> WELCOME </font>
+        	<h3 align ="center"><font color ="blue" face = arial, helvetica, cambia> WELCOME </font>
 
 
-        		<p>Purge Transportation and logistics offer both transportation of good and people
+        		<p>Purge Transportation and logistics offer  transportation services to all parts of the country.
         	<div class="row">
 	        		 
 	        		 <div class="col-md-6 col-sm-12">
@@ -29,9 +29,36 @@ require 'config.php';
 
 	        		 	<img src="images/bus2.JPG" width="100px" height="100px">
 
-	        		 	<img src="images/bus4.JPG" width="100px" height="100px">
+	        		 	
+
+	        		 	<img src="images/purge.JPG" width="100px" height="100px">
+	        		 	<img src="images/purge2.JPG" width="100px" height="100px">
+
 
 	        		 	<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	        		 	<div id="footer">
+	<h4>+256 786964345 &bull; <a href="ome.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
+	<p>Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 10:00 am - 12:00 am</p>
+	
+	<p>&copy; Copyright 2021 PURGE TRANSPORTATION AND LOGISTICS | All Rights Reserved <br /></p>
+</div>
 </body>
 
 

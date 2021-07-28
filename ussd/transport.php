@@ -23,7 +23,7 @@ require('config.php');
 		<table class="table">
 
 			<thead>
-				<th>Phone Number</th> <th>Name</th> <th>Number of Tickets</th>
+				<th>Phone Number</th> <th>Name</th> <th>Ticket</th>
 			</thead>
 
 			<tbody>

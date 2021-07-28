@@ -21,7 +21,7 @@ if($status == "successful"){
 
 	$dbConnection->query("UPDATE payments SET status='$status' WHERE tx_ref='$tx_ref' ");
 
-	$message = "Hello ".$name." Thank you for paying Movie 12, your seat number is ".$seatNumber.", The mover start at 8:30 PM today";	
+	$message = "Hello ".$name." Thank you for transportation services, your seat number is ".$seatNumber.", you will be informed about your departure time";	
 
 	$apikey     = "";	
 

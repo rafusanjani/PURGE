@@ -151,9 +151,9 @@ require 'config.php';
 			        // close modal
 			      },
 			      customizations: {
-			        title: "Movie ticket for (THE FOREVER PURGE) HORROR",
-			        description: "Payment for movie",
-			        logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vectors%2Fcinema-logo-vectors&psig=AOvVaw25fgpDn-vRg4i068JmYnSG&ust=1626955202609000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLD81oeN9PECFQAAAAAdAAAAABAD",
+			        title: "Transportation ticket ",
+			        description: "Payment for transportation services",
+			        logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sandrakennedy.org%2Fptl-logo%2F&psig=AOvVaw3yGpXvMs9Ge69euDPRXwri&ust=1627569911582000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjAtYH_hfICFQAAAAAdAAAAABAD",
 			      },
 			    });
 
