@@ -10,6 +10,7 @@ require('config.php');
 </head>
 <body>
 
+
 	<?php
 
 	  $records = $dbConnection->query("SELECT phone_number, name, price, status, tx_ref FROM payments,users WHERE users.id = payments.id");
@@ -18,12 +19,12 @@ require('config.php');
 
 	<div class="container">
 
-		<h2>Purge Transportation And Logistics Ltd</h2>
+		<h2align ="center"><font color ="blue" face = arial, helvetica, cambia>Purge Transportation And Logistics Ltd</h2>
 		<hr>
 		<table class="table">
 
 			<thead>
-				<th>Phone Number</th> <th>Name</th> <th>Price</th> <th>Status</th> <th>Payment Reference</th>
+				<th>Phone Number</th> <th>Name</th> <th>Price</th>  <th>Status</th>        <th>Payment Reference</th>
 			</thead>
 
 			<tbody>
@@ -71,3 +72,4 @@ require('config.php');
 
 </body>
 </html>
+

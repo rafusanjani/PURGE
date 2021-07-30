@@ -10,7 +10,7 @@
 
                 <ul class="navbar-nav mr-auto">
                 	<li class="nav-item dropdown">
-                        <a class="nav-link" href="ome.php">Home</a>
+                        <a class="nav-link" href="home.php">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="buy.php ">Tickets/Payment</a>
@@ -24,6 +24,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="contactus.php ">Contact Us</a>
                     </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="list_of_users.php ">Transactions</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
