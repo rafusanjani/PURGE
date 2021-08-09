@@ -24,7 +24,7 @@ require('config.php');
 		<table class="table">
 
 			<thead>
-				<th>Phone Number</th> <th>Name</th> <th>Price</th>  <th>Status</th>        <th>Payment Reference</th>
+				<th>Name</th> <th>Price</th>  <th>Status</th>        <th>Payment Reference</th>
 			</thead>
 
 			<tbody>
