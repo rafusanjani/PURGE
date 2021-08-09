@@ -24,18 +24,7 @@ require 'config.php';
         		<p>Purge Transportation and logistics offer  transportation services to all parts of the country.
         	<div class="row">
 	        		 
-	        		 <div class="col-md-6 col-sm-12">
-
-	        		 	<img src="images/bus1.JPG" width="100px" height="100px">
-
-	        		 	<img src="images/bus2.JPG" width="100px" height="100px">
-
-	        		 	
-
-	        		 	<img src="images/purge.JPG" width="100px" height="100px">
-	        		 	<img src="images/purge2.JPG" width="100px" height="100px">
-
-
+	        		 
 	        		 	<hr>
 
 
