@@ -10,7 +10,8 @@ require 'config.php';
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 	</head>
 	<body>
-     <?php include 'header.php'; ?>
+		<?php include 'header.php'; ?>
+     
 		<span id="app"></span>
 
 	    <main class="py-4">
@@ -23,7 +24,7 @@ require 'config.php';
 
 	        	   $tickets = "SELECT * FROM tickets";
 
-	        	   $records = $dbConnection->query($tickets); 
+	        	   $records = $conn->query($tickets); 
 
 
 	        	 ?>
@@ -72,7 +73,7 @@ require 'config.php';
 
 	        	<?php 
 
-	        	   $paymentRecords = $dbConnection->query("SELECT payments.name as customer_name, phone_number,tickets.name as ticket_name, payments.price as amount, payments.id as transaction_id,status FROM payments,tickets WHERE payments.plan_id = tickets.id"); 
+	        	   $paymentRecords = $conn->query("SELECT payments.name as customer_name, phone_number,tickets.name as ticket_name, payments.price as amount, payments.id as transaction_id,status FROM payments,tickets WHERE payments.plan_id = tickets.id"); 
 
 	        	   foreach ($paymentRecords as $key => $payment) {
 

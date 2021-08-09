@@ -9,6 +9,7 @@ require 'config.php';
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 	</head>
 	<body>
+		<?php include 'header.php'; ?>
 
 		<span id="app"></span>
 
@@ -18,7 +19,7 @@ require 'config.php';
 
     	   $tickets = "SELECT * FROM tickets WHERE id = $id";
 
-    	   $records = $dbConnection->query($tickets); 
+    	   $records =$conn->query($tickets); 
 
     	   foreach ($records as $key => $value) {
 

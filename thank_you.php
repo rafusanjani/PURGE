@@ -10,6 +10,7 @@ require 'config.php';
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 	</head>
 	<body>
+		<?php include 'header.php'; ?>
 
 		<span id="app"></span>
 

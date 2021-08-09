@@ -7,7 +7,7 @@ $status = $_GET['status'];
 
 $tx_ref = $_GET['tx_ref'];
 
-$readPayment = $dbConnection->query("SELECT * FROM payments WHERE tx_ref = '$tx_ref'");
+$readPayment = $conn->query("SELECT * FROM payments WHERE tx_ref = '$tx_ref'");
 
 $results = $readPayment->fetch_assoc();
 
@@ -19,7 +19,7 @@ $seatNumber = "VIP-12";
 
 if($status == "successful"){
 
-	$dbConnection->query("UPDATE payments SET status='$status' WHERE tx_ref='$tx_ref' ");
+	$conn->query("UPDATE payments SET status='$status' WHERE tx_ref='$tx_ref' ");
 
 	$message = "Hello ".$name." Thank you for transportation services, your seat number is ".$seatNumber.", you will be informed about your departure time";	
 

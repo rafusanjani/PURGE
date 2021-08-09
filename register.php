@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html>
+
 
 <?php require('config.php') ?>
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Register</title>
-	<link rel="stylesheet" type="text/css" href="../css/app.css">
-</head>
-<body>
+    <meta charset="utf-8">
+        <title>PURGE TRANSPORTATION AND LOGISTICS</title>
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+    
 
-	<?php include 'header.php'; ?>
+<body >
+     <?php include 'header.php'; ?>
+    
+<main class="py-4">
+        <div class="container">
 
     <main class="py-4">
         <div class="container">
 
-        	<h2>PURGE TRANSPORTATION AND LOGISTICS LTD</h2>
+        	<h2>REGISTRATION</h2>
         	<hr>
 
-        	<form method="POST" action="ininiate.php">
+        	<form method="POST" action="save_user.php">
         		<div class="row">
-                    
         			<div class="col-md-6">
-
         				<label>Name</label><br>
         				<input type="text" name="person_name" class="form-control" required>
 
         				<label>Phone Number</label><br>
-        				<input type="text" name="phone_number" placeholder="+256772123456" class="form-control" required>
-                    
+        				<input type="text" name="phone_number" placeholder="+256777777777" class="form-control" required>
+
         				<label>Email</label><br>
         				<input type="email" name="email_address" class="form-control" required>
 
@@ -35,11 +37,10 @@
 
         				<?php 
 
-        				$results = $dbConnection->query("SELECT ID, NAME FROM payments ORDER BY ID ASC");
+        				$results = $conn->query("SELECT ID, NAME FROM payments ORDER BY ID ASC");
         				 ?>
 
-        				<label>District</label><br>
-        				<select class="form-control" name="district_id"></br>
+        				
 
         					<?php 
 
@@ -54,9 +55,9 @@
 
 
         					 ?>
+        					 
         				</select>
-     
-                        
+
         				<br>
 
         				<label>Password</label><br>
@@ -68,10 +69,20 @@
         				<hr>
 
 
-        				<button type="submit" class="btn btn-danger">Register</button> 
+        				<button type="submit" class="btn btn-danger">SUBMIT</button>
 
         			</div>
         		</div>
+                <div id="footer">
+    <h4>+256 786964345 &bull; <a href="home.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
+    <p>Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 10:00 am - 12:00 am</p>
+    <a href="index.php"><img src="images/purge3.jpg" alt=" RAF'S M BUSES" width="50" length="50" /></a>
+    <p>&copy; Copyright 2021 PURGE TRANSPORTATION AND LOGISTICS | All Rights Reserved <br /></p>
+</div>
+
+</div>
+</body>
+</html>
         	</form>
 
         </div>

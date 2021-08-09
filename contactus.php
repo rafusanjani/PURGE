@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html>
-
-<?php require('config.php') ?>
+<!DOCTYPE html >
 <head>
-	<head>
-        <meta charset="utf-8">
-        <title>Contact us</title>
-        <link rel="stylesheet" type="text/css" href="css/app.css">
-    </head>
-    <body>
-     <?php include 'header.php'; ?>
-        <span id="app"></span>
 
-        <main class="py-4">
-            <div class="container">
+<title>PURGE TRANSPORTATION AND LOGISTICS</title>
+
+</head>
+<meta charset="utf-8">
+        <title>Terminals</title>
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+
+<body>
+    <?php include 'header.php'; ?>
+    
+
+    
+<main class="py-4">
+        <div class="container">
+
+            <h2>PURGE TRANSPORTATION AND LOGISTICS LTD</h2>
+            <h3 align ="center"><font color ="blue" face = arial, helvetica, cambia> WELCOME </font>
 
         	<h2>PURGE TRANSPORTATION AND LOGISTICS LTD</h2>
         	<hr>
@@ -36,7 +40,7 @@
 
         				<?php 
 
-        				$results = $dbConnection->query("SELECT ID, NAME FROM payments ORDER BY ID ASC");
+        				$results = $conn->query("SELECT ID, NAME FROM payments ORDER BY ID ASC");
         				 ?>
 
         				<label>District</label><br>

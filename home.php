@@ -12,7 +12,8 @@ require 'config.php';
 	
 
 <body >
-	<?php include 'header.php'; ?>
+	 <?php include 'header.php'; ?>
+	
 <main class="py-4">
         <div class="container">
 
@@ -54,10 +55,10 @@ require 'config.php';
 
 
 	        		 	<div id="footer">
-	<h4>+256 786964345 &bull; <a href="ome.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
+	<h4> <a href="home.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
 	<p>Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 10:00 am - 12:00 am</p>
 	
-	<p>&copy; Copyright 2021 PURGE TRANSPORTATION AND LOGISTICS | All Rights Reserved <br /></p>
+	<p>&copy; Copyright 2021 PURGE TRANSPORTATION AND LOGISTICS | All Rights Reserved +256 786964345 ;<br /></p>
 </div>
 </body>
 
