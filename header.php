@@ -10,7 +10,7 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
                 	<li class="nav-item dropdown">
-                        <a class="nav-link" href="home.php">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="buy.php">Payment/Tickets</a>
