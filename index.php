@@ -55,7 +55,7 @@ require 'config.php';
 
 
 	        		 	<div id="footer">
-	<h4> <a href="home.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
+	<h4> <a href="index.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
 	<p>Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 10:00 am - 12:00 am</p>
 	
 	<p>&copy; Copyright 2021 PURGE TRANSPORTATION AND LOGISTICS | All Rights Reserved +256 786964345 ;<br /></p>

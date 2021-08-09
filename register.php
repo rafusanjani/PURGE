@@ -74,7 +74,7 @@
         			</div>
         		</div>
                 <div id="footer">
-    <h4>+256 786964345 &bull; <a href="home.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
+    <h4>+256 786964345 &bull; <a href="index.php">Naalya Town, Metroplex-Kiwatule  </a></h4>
     <p>Hours of Operation&nbsp;&nbsp;&bull;&nbsp;&nbsp;Mon - Sun: 10:00 am - 12:00 am</p>
     <a href="index.php"><img src="images/purge3.jpg" alt=" RAF'S M BUSES" width="50" length="50" /></a>
     <p>&copy; Copyright 2021 PURGE TRANSPORTATION AND LOGISTICS | All Rights Reserved <br /></p>
