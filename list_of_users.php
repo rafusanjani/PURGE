@@ -34,14 +34,13 @@ require('config.php');
 
 				   	 foreach ($records as $key => $value) {
 
-				   	 	$phone = $value["phone_number"];
 				   	 	$name = $value["name"];
 				   	 	$price = $value["price"];
 				   	 	$status = $value["status"];
 				   	 	$tx_ref = $value["tx_ref"];
 				   	 	 echo "
 				   	 	 <tr> 
-				   	 	    <td>$phone </td>
+				   	 	    
 				   	 	    <td>$name </td>
 				   	 	    <td>$price </td>
 				   	 	    <td>$status </td>
