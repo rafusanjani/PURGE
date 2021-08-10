@@ -35,26 +35,10 @@
 
         				<!-- read districts -->
 
-        				<?php 
-
-        				$results = $conn->query("SELECT ID, NAME FROM payments ORDER BY ID ASC");
-        				 ?>
-
         				
 
-        					<?php 
 
-        					foreach ($results as $key => $value) {
-
-	                           $id = $value["ID"];
-	                           $name = $value["NAME"];
-
-	                           echo "<option value='$id'>$name</option>";
-
-	                        }
-
-
-        					 ?>
+        					
         					 
         				</select>
 
