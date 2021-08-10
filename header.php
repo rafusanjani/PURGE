@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a href="index.php"><img src="images/purge3.jpg" width="50" length="50" /></a>
+    
     <div class="container">
 
         <a class="navbar-brand" href="">PURGE TRANSPORT AND LOGISTICS</a>
