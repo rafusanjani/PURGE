@@ -1,6 +1,6 @@
 <?php
 require('config.php');
-php include 'header.php'; ?>
+
 
 
 $pName = $_POST['person_name'];
